@@ -1,1 +1,57 @@
-great
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){});
+
+//change font size of class b1
+function b1() {
+    $("#b1").css({"font-size":"150%","color":"red"});
+    $("#b1").html("Nerver gonna give you up");
+}
+
+function b2() {
+    $("#b2").html("Never gonna let you down")
+    $("#b2").css({"font-size":"150%","color":"red"})
+}
+
+function b4() { 
+    $("#body").css({"background-image":"url(https://i.pinimg.com/originals/88/82/bc/8882bcf327896ab79fb97e85ae63a002.gif)",
+    "background-repeat":"no-repeat",
+    "background-size":"100%"});
+    $("#b3").css({"font-size":"150%","color":"red"});
+    $("#b3").html("and desert you");
+}
+
+function b3() {
+    $("#span").html("Never gonna run around")
+    $("#span").css({"font-size":"150%","color":"red"})
+}
+</script>
+</head>
+<body id="body">
+
+Dynamic Effects (Practice 1)<p>
+Aim: Fundamental skill in making effects<p>
+
+1. <button id="b1" onclick="b1()">Click me to see Effect 1</button><p>
+2. <button id="b2" onclick="b2()">Click me to see Effect 2</button><p>
+<hr>
+3. <button id="b3" onclick="b3()">Click me to see Effect 3</button><br>
+Details: <br>
+<span id="span">This message will be changed after clicking the 3rd effects</span><p>
+<hr>
+4. <button id="b4" onclick="b4()">Click me to see Effect 4</button><br>
+Details: <br>is a user defined effects<p>
+<hr>
+Summary:
+<ol>
+<li> use <b>div</b>, <b>span</b>  or <b>button</b>to enlcose a region for making button or effects</li>
+<li> onclick is used to set the effect</li>
+<li> Restoring the effect is a useful idea.</li><li> use CSS to make the button or region looks better and know the <b>default</b> value
+
+
+</ol>
+</body>
+</html>
